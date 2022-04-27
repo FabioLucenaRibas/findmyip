@@ -1,0 +1,20 @@
+{
+  "name": "findmyip",
+  "version": "1.0.0",
+  "description": "find my ip",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Fábio Lucena Ribas",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.18.0",
+    "express-public-ip": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
